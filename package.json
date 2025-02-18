@@ -1,0 +1,38 @@
+{
+    "name": "custom-ecommerce-template",
+    "version": "1.0.0",
+    "description": "A custom e-commerce page template built with Tailwind CSS. Free for personal and commercial use.",
+    "homepage": "https://github.com/lucaskrispim/Trabalho_IHC",
+    "author": "Lucas Crispim",
+    "license": "MIT",
+    "source": "src/index.html",
+    "scripts": {
+      "start": "parcel",
+      "build": "parcel build"
+    },
+    "browserslist": "last 2 versions",
+    "targets": {
+      "default": {
+        "distDir": "./build/"
+      }
+    },
+    "keywords": [
+      "template",
+      "tailwind",
+      "html",
+      "css",
+      "ecommerce"
+    ],
+    "bugs": {
+      "url": "https://github.com/lucaskrispim/Trabalho_IHC/issues"
+    },
+    "dependencies": {
+      "@parcel/packager-raw-url": "^2.8.3",
+      "@parcel/transformer-webmanifest": "^2.8.3",
+      "@splidejs/splide": "^4.1.4",
+      "@tailwindcss/aspect-ratio": "^0.4.2",
+      "alpinejs": "^3.12.1",
+      "parcel": "^2.8.3",
+      "tailwindcss": "^3.3.2"
+    }
+  }
