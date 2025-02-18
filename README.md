@@ -1,6 +1,6 @@
 # Custom E-commerce Template
 
-A e-commerce page template built with Tailwind CSS. Free for personal and commercial use.
+A custom e-commerce page template built with Tailwind CSS. Free for personal and commercial use.
 
 > **Homepage**: [https://github.com/lucaskrispim/Trabalho_IHC](https://github.com/lucaskrispim/Trabalho_IHC)
 
@@ -15,7 +15,7 @@ This template provides a modern, responsive e-commerce layout using:
 - **Splide** for sliders/carousels
 - Additional configuration for icons, web manifest, and more
 
-Feel free to adapt or expand the layout to suit your own brand or product line. Licensed under [MIT](#license).
+Feel free to adapt or expand the layout to suit your own brand or product line. Licensed under the [MIT License](#license).
 
 ---
 
