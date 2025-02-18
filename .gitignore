@@ -1,6 +1,9 @@
 # Node modules
 node_modules/
 
+# Build Path
+build/
+
 # Parcel cache directories
 .cache/
 .parcel-cache/
