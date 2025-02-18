@@ -8,7 +8,7 @@
     "source": "src/index.html",
     "scripts": {
         "start": "parcel",
-        "build": "parcel build",
+        "build": "rimraf .parcel-cache build && parcel build",
         "lint": "prettier --check '**/*.html'",
         "format": "prettier --write '**/*.html'"
     },
@@ -38,6 +38,8 @@
         "tailwindcss": "^3.3.2"
     },
     "devDependencies": {
-        "prettier": "^3.5.1"
+        "prettier": "^3.5.1",
+        "rimraf": "^6.0.1",
+        "svgo": "^3.3.2"
     }
 }
