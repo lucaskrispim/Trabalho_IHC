@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+
+# Parcel cache directories
+.cache/
+.parcel-cache/
+
+# Build output directory
+dist/
+
+# Environment files (se aplicável)
+.env
+.env.local
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+
+#lock files
+yarn.lock
+package-lock.json
