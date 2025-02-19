@@ -33,8 +33,19 @@ Feel free to adapt or expand the layout to suit your own brand or product line. 
    ```bash
    npm install
 
+### The pages:
 
-
-### The pages are:
-
+1. **Index**
 ![Index](./src/assets/images/index.png)
+
+2. **About**
+![Index](./src/assets/images/sobre.png)
+
+3. **Contact us**
+![Index](./src/assets/images/fale_conosco.png)
+
+4. **Login**
+![Index](./src/assets/images/entrar.png)
+
+5. **Sign up**
+![Index](./src/assets/images/cadastrar.png)
