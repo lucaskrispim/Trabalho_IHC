@@ -20,7 +20,6 @@
   <body x-data="{ desktopMenuOpen: false, mobileMenuOpen: false}">
     <main class="h-screen flex flex-col justify-between">
       <div>
-        <!-- Header -->
         <header
           class="mx-auto w-full flex h-16 max-w-[1200px] items-center justify-between px-5"
         >
@@ -155,9 +154,7 @@
             </a>
           </div>
         </header>
-        <!-- /Header -->
 
-        <!-- Burger menu  -->
         <section
           x-show="mobileMenuOpen"
           @click.outside="mobileMenuOpen = false"
@@ -273,14 +270,10 @@
               <li class="py-2"><a href="index.html">Início</a></li>
               <li class="py-2"><a href="#">Catálogo</a></li>
               <li class="py-2"><a href="about-us.html">Sobre</a></li>
-              <li class="py-2"><a href="#">Fale conosco</a></li>
+              <li class="py-2"><a href="contact-us.html">Fale conosco</a></li>
             </ul>
           </div>
         </section>
-        <!-- /Burger menu  -->
-
-        <!-- Nav bar -->
-        <!-- hidden on small devices -->
 
         <nav class="relative bg-violet-900">
           <div
@@ -314,45 +307,49 @@
               <a
                 class="font-light text-white duration-100 hover:text-yellow-400 hover:underline"
                 href="index.html"
-                >Início</a
               >
+                Início
+              </a>
               <a
                 class="font-light text-white duration-100 hover:text-yellow-400 hover:underline"
                 href="#"
-                >Catálogo</a
               >
+                Catálogo
+              </a>
               <a
                 class="font-light text-white duration-100 hover:text-yellow-400 hover:underline"
                 href="about-us.html"
-                >Sobre</a
               >
+                Sobre
+              </a>
               <a
                 class="font-light text-white duration-100 hover:text-yellow-400 hover:underline"
-                href="#"
-                >Fale conosco</a
+                href="contact-us.html"
               >
+                Fale conosco
+              </a>
             </div>
 
             <div class="ml-auto flex gap-4 px-5">
               <a
                 class="font-light text-white duration-100 hover:text-yellow-400 hover:underline"
                 href="login.html"
-                >Entrar</a
               >
+                Entrar
+              </a>
 
               <span class="text-white">&#124;</span>
 
               <a
                 class="font-light text-white duration-100 hover:text-yellow-400 hover:underline"
                 href="sign-up.html"
-                >Cadastrar-se</a
               >
+                Cadastrar-se
+              </a>
             </div>
           </div>
         </nav>
-        <!-- /Nav bar -->
 
-        <!-- Menu  -->
         <section
           x-show="desktopMenuOpen"
           @click.outside="desktopMenuOpen = false"
@@ -372,8 +369,8 @@
                     alt="Bedroom icon"
                   />
                   Bedroom
-                  <span class="ml-auto"
-                    ><svg
+                  <span class="ml-auto">
+                    <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -400,8 +397,8 @@
                     alt="bedroom icon"
                   />
                   Matrass
-                  <span class="ml-auto"
-                    ><svg
+                  <span class="ml-auto">
+                    <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -428,8 +425,8 @@
                     alt="bedroom icon"
                   />
                   Outdoor
-                  <span class="ml-auto"
-                    ><svg
+                  <span class="ml-auto">
+                    <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -456,8 +453,8 @@
                     alt="bedroom icon"
                   />
                   Sofa
-                  <span class="ml-auto"
-                    ><svg
+                  <span class="ml-auto">
+                    <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -484,8 +481,8 @@
                     alt="bedroom icon"
                   />
                   Kitchen
-                  <span class="ml-auto"
-                    ><svg
+                  <span class="ml-auto">
+                    <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -512,8 +509,8 @@
                     alt="Food icon"
                   />
                   Living room
-                  <span class="ml-auto"
-                    ><svg
+                  <span class="ml-auto">
+                    <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -564,7 +561,9 @@
                   <p class="font-medium text-gray-500">MESAS DE CABECEIRA</p>
                   <ul class="text-sm leading-8">
                     <li><a href="#">Mesa Roxa</a></li>
-                    <li><a href="#">Mesa de cabeceira Easy</a></li>
+                    <li>
+                      <a href="#">Mesa de cabeceira Easy</a>
+                    </li>
                     <li><a href="#">Mesa Soft</a></li>
                     <li><a href="#">Mesa Artesanal</a></li>
                   </ul>
@@ -574,7 +573,9 @@
                   <p class="font-medium text-gray-500">DIVERSOS</p>
                   <ul class="text-sm leading-8">
                     <li><a href="#">Umidificador</a></li>
-                    <li><a href="#">Aspirador de Cama</a></li>
+                    <li>
+                      <a href="#">Aspirador de Cama</a>
+                    </li>
                     <li><a href="#">Aspirador de Pó</a></li>
                     <li><a href="#">Travesseiro</a></li>
                   </ul>
@@ -583,10 +584,6 @@
             </div>
           </div>
         </section>
-
-        <!-- /Menu  -->
-
-        <!-- BG Image  -->
 
         <div class="relative">
           <img
@@ -600,12 +597,13 @@
           >
             <h1 class="text-4xl font-bold sm:text-5xl">Sobre</h1>
             <p class="mx-auto pt-3 text-xs lg:w-3/5 lg:pt-5 lg:text-base">
-              Na MayBell, unimos estilo e qualidade para transformar cada espaço da sua casa. Oferecemos produtos exclusivos que combinam sofisticação, conforto e durabilidade, sempre com preços acessíveis e condições especiais.
+              Na MayBell, unimos estilo e qualidade para transformar cada espaço
+              da sua casa. Oferecemos produtos exclusivos que combinam
+              sofisticação, conforto e durabilidade, sempre com preços
+              acessíveis e condições especiais.
             </p>
           </div>
         </div>
-
-        <!-- /BG IMAGE  -->
       </div>
 
       <section class="flex-grow">
@@ -623,7 +621,10 @@
         >
           <h2 class="w-full text-left text-xl font-bold">Nossa Missão:</h2>
           <p class="py-3">
-            Proporcionar aos nossos clientes produtos de alta qualidade que unem sofisticação, conforto e acessibilidade. Buscamos transformar cada ambiente com estilo e praticidade, garantindo sempre a melhor experiência de compra.
+            Proporcionar aos nossos clientes produtos de alta qualidade que unem
+            sofisticação, conforto e acessibilidade. Buscamos transformar cada
+            ambiente com estilo e praticidade, garantindo sempre a melhor
+            experiência de compra.
           </p>
           <div class="grid grid-cols-1 gap-3 lg:grid-cols-3">
             <img
@@ -643,20 +644,31 @@
             />
           </div>
           <p class="py-3">
-            Nosso compromisso é oferecer produtos que combinam qualidade, inovação e acessibilidade, tornando cada espaço mais aconchegante e elegante. Buscamos sempre proporcionar a melhor experiência para nossos clientes, garantindo excelência no atendimento, transparência e satisfação em cada compra.
+            Nosso compromisso é oferecer produtos que combinam qualidade,
+            inovação e acessibilidade, tornando cada espaço mais aconchegante e
+            elegante. Buscamos sempre proporcionar a melhor experiência para
+            nossos clientes, garantindo excelência no atendimento, transparência
+            e satisfação em cada compra.
           </p>
 
           <h2 class="mt-3 w-full text-left text-xl font-bold">Nossa Visão:</h2>
           <p class="py-3">
-            Ser referência no mercado, oferecendo produtos de alta qualidade que transformam ambientes e elevam a experiência dos nossos clientes. Buscamos inovação constante, crescimento sustentável e a construção de uma marca reconhecida pela confiança, excelência e compromisso com a satisfação.
+            Ser referência no mercado, oferecendo produtos de alta qualidade que
+            transformam ambientes e elevam a experiência dos nossos clientes.
+            Buscamos inovação constante, crescimento sustentável e a construção
+            de uma marca reconhecida pela confiança, excelência e compromisso
+            com a satisfação.
           </p>
 
-          <h2 class="mt-3 w-full text-left text-xl font-bold">Nossos Valores:</h2>
+          <h2 class="mt-3 w-full text-left text-xl font-bold">
+            Nossos Valores:
+          </h2>
           <p class="py-3">
-            Compromisso com a qualidade, inovação e ética são os pilares da nossa empresa.  
-            Buscamos oferecer produtos e serviços que agregam valor, sempre com transparência  
-            e respeito aos nossos clientes. Acreditamos na sustentabilidade e no impacto  
-            positivo que podemos gerar para um futuro melhor.
+            Compromisso com a qualidade, inovação e ética são os pilares da
+            nossa empresa. Buscamos oferecer produtos e serviços que agregam
+            valor, sempre com transparência e respeito aos nossos clientes.
+            Acreditamos na sustentabilidade e no impacto positivo que podemos
+            gerar para um futuro melhor.
           </p>
           <div class="grid grid-cols-1 gap-3 lg:grid-cols-3">
             <img
@@ -678,8 +690,6 @@
         </div>
       </section>
 
-      <!-- Desktop Footer  -->
-
       <footer
         class="mx-auto w-full max-w-[1200px] justify-between pb-10 flex flex-col lg:flex-row"
       >
@@ -690,7 +700,9 @@
             alt="company logo"
           />
           <p class="pl-0">
-            Transformando sua casa com estilo, conforto <br /> e qualidade para cada momento.
+            Transformando sua casa com estilo, conforto
+            <br />
+            e qualidade para cada momento.
           </p>
           <div class="mt-10 flex gap-3">
             <a href="https://github.com/">
@@ -717,40 +729,36 @@
           </div>
         </div>
 
-          <div class="mx-5 mt-10">
-            <p class="font-medium text-gray-500">SUPORTE</p>
-            <ul class="text-sm leading-8">
-              <li><a href="#">Precificação</a></li>
-              <li><a href="#">Documentação</a></li>
-              <li><a href="#">Análise</a></li>
-              <li><a href="#">Status da Arte</a></li>
-            </ul>
-          </div>
+        <div class="mx-5 mt-10">
+          <p class="font-medium text-gray-500">SUPORTE</p>
+          <ul class="text-sm leading-8">
+            <li><a href="#">Precificação</a></li>
+            <li><a href="#">Documentação</a></li>
+            <li><a href="#">Análise</a></li>
+            <li><a href="#">Status da Arte</a></li>
+          </ul>
+        </div>
 
-          <div class="mx-5 mt-10">
-            <p class="font-medium text-gray-500">DOCUMENTOS</p>
-            <ul class="text-sm leading-8">
-              <li><a href="#">Termos</a></li>
-              <li><a href="#">Condições</a></li>
-              <li><a href="#">Privacidade</a></li>
-              <li><a href="#">Licença</a></li>
-            </ul>
-          </div>
+        <div class="mx-5 mt-10">
+          <p class="font-medium text-gray-500">DOCUMENTOS</p>
+          <ul class="text-sm leading-8">
+            <li><a href="#">Termos</a></li>
+            <li><a href="#">Condições</a></li>
+            <li><a href="#">Privacidade</a></li>
+            <li><a href="#">Licença</a></li>
+          </ul>
+        </div>
 
-          <div class="mx-5 mt-10">
-            <p class="font-medium text-gray-500">ENTREGA</p>
-            <ul class="text-sm leading-8">
-              <li><a href="#">Lista de Países</a></li>
-              <li><a href="#">Informações</a></li>
-              <li><a href="#">Restrições</a></li>
-              <li><a href="#">Pagamento</a></li>
-            </ul>
-          </div>
+        <div class="mx-5 mt-10">
+          <p class="font-medium text-gray-500">ENTREGA</p>
+          <ul class="text-sm leading-8">
+            <li><a href="#">Lista de Países</a></li>
+            <li><a href="#">Informações</a></li>
+            <li><a href="#">Restrições</a></li>
+            <li><a href="#">Pagamento</a></li>
+          </ul>
         </div>
       </footer>
-      <!-- /Desktop Footer  -->
-
-      <!-- Pagamento and copyright  -->
 
       <section class="h-11 bg-amber-400">
         <div
@@ -777,7 +785,6 @@
         </div>
       </section>
     </main>
-    <!-- /Pagamento and copyright  -->
     <script type="module" src="assets/js/script.js"></script>
   </body>
 </html>
