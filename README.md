@@ -32,3 +32,9 @@ Feel free to adapt or expand the layout to suit your own brand or product line. 
 2. **Install** dependencies:
    ```bash
    npm install
+
+
+
+### The pages are:
+
+![Index](./src/assets/images/index.png)
